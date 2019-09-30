@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+
+			<class name="testingFeatures.DemoAssertion" />
+
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Regression">
+		<classes>
+
+
+			<class name="testingFeatures.DemoSoftAssert" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

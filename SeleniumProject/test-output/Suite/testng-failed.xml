@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testingFeatures.ExecutionSequence">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testingFeatures.ExecutionSequence -->
+      <class name="testingFeatures.DemoSoftAssert">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testingFeatures.DemoSoftAssert -->
+      <class name="testingFeatures.OpenMercury">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testingFeatures.OpenMercury -->
+      <class name="testingFeatures.DemoAssertion">
+        <methods>
+          <include name="test6"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- testingFeatures.DemoAssertion -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

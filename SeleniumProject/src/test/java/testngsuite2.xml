@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods">
+	<test name="Test">
+		<classes>
+
+			<class name="testingFeatures.MercuryApplication">
+			<methods>
+			<include name="Login"></include>
+			</methods>
+			
+			<methods>
+			<include name="searchFlight"></include>
+			</methods>
+			
+			<methods>
+			<exclude name="logout"></exclude>
+			</methods>
+			
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+
+
+	
+		
+	
+</suite> <!-- Suite -->
